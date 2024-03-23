@@ -6,7 +6,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 
-import java.util.UUID;
 
 @Data
 @Entity
@@ -26,5 +25,4 @@ public class Question {
     private String option3;
     private String option4;
     private String rightAnswer;
-
 }
